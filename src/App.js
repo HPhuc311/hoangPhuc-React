@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+// compenent lớn nhất trong dự án
 function App() {
   return (
     <div className="App">
