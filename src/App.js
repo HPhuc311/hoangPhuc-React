@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionComponent from './DemoComponent/FunctionComponent';
-import ClassComponent from './DemoComponent/ClassComponent';
-
+import BTComponent from './BTComponent/BTComponent';
+import BindingData from './BindingData/BindingData';
+import RenderWithCondition from './RenderWithCondition/RenderWithCondition';
+import HandleEvent from './HandleEvent/HandleEvent';
+import StyleComponent from './StyleComponent/StyleComponent';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
 
 // component lớn nhất trong dự án
 // 2 loại component 
@@ -18,12 +21,17 @@ import ClassComponent from './DemoComponent/ClassComponent';
 function App() {
   return (
     <div className="App">
-       <span className='title' tabIndex>HELLO BC47</span>
-        <p></p>
-        <h1></h1>
+        <BTComponent></BTComponent>
 
-        <FunctionComponent></FunctionComponent>
-        <ClassComponent></ClassComponent>
+        <BindingData></BindingData>
+
+        <RenderWithCondition></RenderWithCondition>
+
+        <HandleEvent></HandleEvent>
+
+        <StyleComponent></StyleComponent>
+
+        <RenderWithMap/>
     </div>
   );
 }
