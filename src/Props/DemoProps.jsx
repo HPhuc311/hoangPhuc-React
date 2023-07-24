@@ -7,8 +7,6 @@ const DemoProps = () => {
         <h1>DemoProps</h1>
         <Header bg ='yellow'/>
         <Header bg ='red'/>
-        <Header/>
-        <Header/>
     </div>
   )
 }

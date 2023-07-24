@@ -8,6 +8,7 @@ import StyleComponent from './StyleComponent/StyleComponent';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
 import State from './State/State';
 import DemoProps from './Props/DemoProps';
+import BTShoeShop from './BTShoeShop/BTShoeShop';
 
 // component lớn nhất trong dự án
 // 2 loại component 
@@ -38,6 +39,8 @@ function App() {
         <State></State>
 
         <DemoProps></DemoProps>
+
+        <BTShoeShop></BTShoeShop>
     </div>
   );
 }
