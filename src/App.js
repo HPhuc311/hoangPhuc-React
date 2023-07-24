@@ -6,6 +6,8 @@ import RenderWithCondition from './RenderWithCondition/RenderWithCondition';
 import HandleEvent from './HandleEvent/HandleEvent';
 import StyleComponent from './StyleComponent/StyleComponent';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
+import State from './State/State';
+import DemoProps from './Props/DemoProps';
 
 // component lớn nhất trong dự án
 // 2 loại component 
@@ -32,6 +34,10 @@ function App() {
         <StyleComponent></StyleComponent>
 
         <RenderWithMap/>
+
+        <State></State>
+
+        <DemoProps></DemoProps>
     </div>
   );
 }

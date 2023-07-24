@@ -1,4 +1,5 @@
 import React from 'react'
+import BaiTapMovie from './BaiTapMovie'
 
 const RenderWithMap = () => {
     const products = [
@@ -49,6 +50,9 @@ const RenderWithMap = () => {
                 }
             </tbody>
         </table>
+
+        <h2 className='mt-5'>BÀI TẬP RENDER MOVIE</h2>
+        <BaiTapMovie></BaiTapMovie>
     </div>
   )
 }
