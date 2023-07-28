@@ -9,6 +9,7 @@ import RenderWithMap from './RenderWithMap/RenderWithMap';
 import State from './State/State';
 import DemoProps from './Props/DemoProps';
 import BTShoeShop from './BTShoeShop/BTShoeShop';
+import Demoredux from './DemoRedux/Demoredux';
 
 // component lớn nhất trong dự án
 // 2 loại component 
@@ -41,6 +42,8 @@ function App() {
         <DemoProps></DemoProps>
 
         <BTShoeShop></BTShoeShop>
+
+        <Demoredux></Demoredux>
     </div>
   );
 }

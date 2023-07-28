@@ -73,3 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Cài đặt lại thư mục 
 - npm i (npm install)
 - yarn (yarn install)
+
+
+# SET UP REDUX
+B1: Tạo 1 folder store
+B2: store => index, rootReducer
+B3 index => tạo store từ thằng createStore
+B4: rootReducer: tạo rootReducer => từ hàm combinereducers
+B5: vào index.js
+=> lấy ra Provider từ reat-redux và bọc lại toàn bộ
+component App
