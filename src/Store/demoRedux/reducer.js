@@ -7,7 +7,7 @@ const initialState = {
 }
 
 export const demoReduxReducer = (state = initialState, action) => {
-    console.log("action", action);
+    // console.log("action", action);
     switch(action.type){
         case INCREASER_NUMBER:{
             state.number += action.payload
