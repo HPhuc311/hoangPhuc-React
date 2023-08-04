@@ -17,7 +17,9 @@ const ProductItem = ({phone}) => {
                 />
                 <div className="card-body">
                     <div className="d-flex justify-content-between">
-                        <button className="btn btn-success">Add To Cart</button>
+                        <button className="btn btn-success" onClick={() => {
+                            dispactch(baiTapPhoneActions.handleCarts(phone))
+                        }}>Add To Cart</button>
                         <button className="btn btn-warning" onClick={() => {
                             dispactch(baiTapPhoneActions.handleProductDetails(phone))
                         }}>Detail</button>
