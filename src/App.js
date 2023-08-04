@@ -11,6 +11,7 @@ import DemoProps from './Props/DemoProps';
 import BTShoeShop from './BTShoeShop/BTShoeShop';
 import Demoredux from './DemoRedux/Demoredux';
 import BTPhoneRedux from './BTPhoneRedux/BTPhoneRedux'
+import BTMoiveBooking from './BTMovieBooking/BTMoiveBooking';
 
 // component lớn nhất trong dự án
 // 2 loại component 
@@ -47,6 +48,8 @@ function App() {
         <Demoredux></Demoredux>
 
        <BTPhoneRedux></BTPhoneRedux>
+
+       <BTMoiveBooking/>
     </div>
   );
 }
